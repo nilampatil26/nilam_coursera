@@ -16,7 +16,7 @@
     var firstLetter = names[i].charAt(0).toLowerCase();
     if (firstLetter == "j") {
       helloSpeaker.speak(names[i]);
-      console.log(names[i]);
+      // console.log(names[i]);
     } else {
       byeSpeaker.speak(names[i]);
     }
